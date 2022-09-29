@@ -4,26 +4,26 @@ using namespace std;
 
 int main()
 {
-   int arr1[10], arr2[10], arr3[10], i, j, k=0, x, tot;
-   cout<<"Enter 10 Elements for First Array: ";
-   for(i=0; i<10; i++)
+   int arr1[5], arr2[5], arr3[10], i, j, k=0, a, total;
+   cout<<" Elements for First Array: ";
+   for(i=0; i<5; i++)
       cin>>arr1[i];
-   cout<<"Enter 10 Elements for Second Array: ";
-   for(i=0; i<10; i++)
+   cout<<" Elements for Second Array: ";
+   for(i=0; i<5; i++)
       cin>>arr2[i];
-   for(i=0; i<10; i++)
+   for(i=0; i<5; i++)
    {
-      for(j=0; j<10; j++)
+      for(j=0; j<5; j++)
       {
          if(arr1[i]==arr2[j])
          {
-            tot = 0;
-            for(x=0; x<k; x++)
+            total = 0;
+            for(a=0; a<k; a++)
             {
-               if(arr1[i]==arr3[x])
-                  tot++;
+               if(arr1[i]==arr3[a])
+                  total++;
             }
-            if(tot==0)
+            if(total==0)
             {
                arr3[k] = arr1[i];
                k++;
