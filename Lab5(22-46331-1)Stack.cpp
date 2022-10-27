@@ -82,7 +82,7 @@ int main()
 
    s.pop();
    s.display();
-    s.top();
+    
 }
 
 
