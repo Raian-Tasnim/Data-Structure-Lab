@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int queue[200], front = - 1, rear = - 1;
+int queue[20], front = - 1, rear = - 1;
 void Insert() {
    int val;
    if (rear == 20 - 1)
